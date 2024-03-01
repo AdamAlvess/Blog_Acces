@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphique</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="../Css/style_graph.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li id="menuButton">&#9776;</li>
+                <div id="popup" class="popup">
+                    <a href="home.html">Accueil</a>
+                    <a href="profil.html">Profil</a>
+                    <a href="formulaire.html">Formulaire</a>
+                    <a href="video.html">Vidéo</a>
+                    <a href="graphique.html">Graphique/Tableau</a>
+                    <button id="toggleDarkMode" class="nav-link">Mode sombre</button>
+                </div>
+            </ul>
+        </nav>
+        <h1>Graphique</h1>
+    </header>
+
+    <main>
+        <section class="chart-section">
+            <h2>Nombre de visiteurs en fonction de l'argent obtenu</h2>
+            <canvas id="myChart"></canvas> 
+        </section>
+
+        <section class="table-section">
+            <h2>Données sous forme de tableau</h2>
+            <table id="myTable">
+                <thead>
+                    <tr>
+                        <th>Argent dépensé</th>
+                        <th>Nombre de visiteurs</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>100</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>200</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>300</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>400</td>
+                        <td>40</td>
+                    </tr>
+                    <tr>
+                        <td>500</td>
+                        <td>50</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <script src="../JS/script.js"></script> 
+</body>
+</html>
