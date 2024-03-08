@@ -5,7 +5,7 @@
 
 .dark-mode {
     --body-background-color: #222; 
-    --body-text-color: #fff; 
+    --body-text-color: #ffffff; 
 }
 
 body {
@@ -89,7 +89,7 @@ th, td {
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: #dc3545;
 }
 
 input[type="text"] {
